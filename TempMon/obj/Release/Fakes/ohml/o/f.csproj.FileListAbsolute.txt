@@ -1,0 +1,8 @@
+C:\Users\INSPIRON\Documents\GitHub\TemperatureMonitor\TempMon\obj\Release\Fakes\ohml\b\OpenHardwareMonitorLib.0.6.0.11.Fakes.xml
+C:\Users\INSPIRON\Documents\GitHub\TemperatureMonitor\TempMon\obj\Release\Fakes\ohml\b\OpenHardwareMonitorLib.0.6.0.11.Fakes.dll
+C:\Users\INSPIRON\Documents\GitHub\TemperatureMonitor\TempMon\obj\Release\Fakes\ohml\b\OpenHardwareMonitorLib.0.6.0.11.Fakes.pdb
+C:\Users\INSPIRON\Documents\GitHub\TemperatureMonitor\TempMon\obj\Release\Fakes\ohml\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\INSPIRON\Documents\GitHub\TemperatureMonitor\TempMon\obj\Release\Fakes\ohml\b\OpenHardwareMonitorLib.dll
+C:\Users\INSPIRON\Documents\GitHub\TemperatureMonitor\TempMon\obj\Release\Fakes\ohml\o\f.csprojResolveAssemblyReference.cache
+C:\Users\INSPIRON\Documents\GitHub\TemperatureMonitor\TempMon\obj\Release\Fakes\ohml\o\OpenHardwareMonitorLib.0.6.0.11.Fakes.dll
+C:\Users\INSPIRON\Documents\GitHub\TemperatureMonitor\TempMon\obj\Release\Fakes\ohml\o\OpenHardwareMonitorLib.0.6.0.11.Fakes.pdb

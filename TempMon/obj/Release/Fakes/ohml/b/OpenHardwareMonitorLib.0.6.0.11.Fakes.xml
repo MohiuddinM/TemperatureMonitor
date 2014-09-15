@@ -1,0 +1,1208 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenHardwareMonitorLib.0.6.0.11.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1">
+            <summary>Shim type of OpenHardwareMonitor.Collections.ListSet`1</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.#ctor(OpenHardwareMonitor.Collections.ListSet{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.Bind(System.Collections.Generic.IEnumerable{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.AddT0">
+            <summary>Sets the shim of ListSet`1.Add(!0 item)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.Constructor">
+            <summary>Sets the shim of ListSet`1.ListSet`1()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.ContainsT0">
+            <summary>Sets the shim of ListSet`1.Contains(!0 item)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.CountGet">
+            <summary>Sets the shim of ListSet`1.get_Count()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.GetEnumerator">
+            <summary>Sets the shim of ListSet`1.GetEnumerator()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.RemoveT0">
+            <summary>Sets the shim of ListSet`1.Remove(!0 item)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Sets the shim of ListSet`1.System.Collections.IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.ToArray">
+            <summary>Sets the shim of ListSet`1.ToArray()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.AllInstances.AddT0">
+            <summary>Sets the shim of ListSet`1.Add(!0 item)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.AllInstances.ContainsT0">
+            <summary>Sets the shim of ListSet`1.Contains(!0 item)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.AllInstances.CountGet">
+            <summary>Sets the shim of ListSet`1.get_Count()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.AllInstances.GetEnumerator">
+            <summary>Sets the shim of ListSet`1.GetEnumerator()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.AllInstances.RemoveT0">
+            <summary>Sets the shim of ListSet`1.Remove(!0 item)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.AllInstances.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Sets the shim of ListSet`1.System.Collections.IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimListSet`1.AllInstances.ToArray">
+            <summary>Sets the shim of ListSet`1.ToArray()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Collections.Fakes.ShimPair`2">
+            <summary>Shim type of OpenHardwareMonitor.Collections.Pair`2</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimPair`2.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimPair`2.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimPair`2.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimPair`2.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Collections.Fakes.ShimPair`2.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1">
+            <summary>Shim type of OpenHardwareMonitor.Collections.ReadOnlyArray`1</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.#ctor(OpenHardwareMonitor.Collections.ReadOnlyArray{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.Bind(OpenHardwareMonitor.Collections.IReadOnlyArray{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.Bind(System.Collections.Generic.IEnumerable{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.ConstructorT0Array">
+            <summary>Sets the shim of ReadOnlyArray`1.ReadOnlyArray`1(!0[] array)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.GetEnumerator">
+            <summary>Sets the shim of ReadOnlyArray`1.GetEnumerator()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.ImplicitOpT0ArrayReadOnlyArrayOfT0">
+            <summary>Sets the shim of ReadOnlyArray`1.op_Implicit(!0[] array)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.ItemGetInt32">
+            <summary>Sets the shim of ReadOnlyArray`1.get_Item(Int32 index)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.LengthGet">
+            <summary>Sets the shim of ReadOnlyArray`1.get_Length()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Sets the shim of ReadOnlyArray`1.System.Collections.IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.ToArray">
+            <summary>Sets the shim of ReadOnlyArray`1.ToArray()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.AllInstances.GetEnumerator">
+            <summary>Sets the shim of ReadOnlyArray`1.GetEnumerator()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.AllInstances.ItemGetInt32">
+            <summary>Sets the shim of ReadOnlyArray`1.get_Item(Int32 index)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.AllInstances.LengthGet">
+            <summary>Sets the shim of ReadOnlyArray`1.get_Length()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.AllInstances.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Sets the shim of ReadOnlyArray`1.System.Collections.IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimReadOnlyArray`1.AllInstances.ToArray">
+            <summary>Sets the shim of ReadOnlyArray`1.ToArray()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1">
+            <summary>Shim type of OpenHardwareMonitor.Collections.RingCollection`1</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.#ctor(OpenHardwareMonitor.Collections.RingCollection{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.Bind(System.Collections.Generic.IEnumerable{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AppendT0">
+            <summary>Sets the shim of RingCollection`1.Append(!0 item)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.CapacityGet">
+            <summary>Sets the shim of RingCollection`1.get_Capacity()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.CapacitySetInt32">
+            <summary>Sets the shim of RingCollection`1.set_Capacity(Int32 value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.Clear">
+            <summary>Sets the shim of RingCollection`1.Clear()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.Constructor">
+            <summary>Sets the shim of RingCollection`1.RingCollection`1()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.ConstructorInt32">
+            <summary>Sets the shim of RingCollection`1.RingCollection`1(Int32 capacity)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.CountGet">
+            <summary>Sets the shim of RingCollection`1.get_Count()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.FirstGet">
+            <summary>Sets the shim of RingCollection`1.get_First()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.FirstSetT0">
+            <summary>Sets the shim of RingCollection`1.set_First(!0 value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.ItemGetInt32">
+            <summary>Sets the shim of RingCollection`1.get_Item(Int32 index)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.ItemSetInt32T0">
+            <summary>Sets the shim of RingCollection`1.set_Item(Int32 index, !0 value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.LastGet">
+            <summary>Sets the shim of RingCollection`1.get_Last()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.LastSetT0">
+            <summary>Sets the shim of RingCollection`1.set_Last(!0 value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.Remove">
+            <summary>Sets the shim of RingCollection`1.Remove()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.SystemCollectionsGenericIEnumerableTGetEnumerator">
+            <summary>Sets the shim of RingCollection`1.System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Sets the shim of RingCollection`1.System.Collections.IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.AppendT0">
+            <summary>Sets the shim of RingCollection`1.Append(!0 item)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.CapacityGet">
+            <summary>Sets the shim of RingCollection`1.get_Capacity()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.CapacitySetInt32">
+            <summary>Sets the shim of RingCollection`1.set_Capacity(Int32 value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.Clear">
+            <summary>Sets the shim of RingCollection`1.Clear()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.CountGet">
+            <summary>Sets the shim of RingCollection`1.get_Count()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.FirstGet">
+            <summary>Sets the shim of RingCollection`1.get_First()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.FirstSetT0">
+            <summary>Sets the shim of RingCollection`1.set_First(!0 value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.ItemGetInt32">
+            <summary>Sets the shim of RingCollection`1.get_Item(Int32 index)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.ItemSetInt32T0">
+            <summary>Sets the shim of RingCollection`1.set_Item(Int32 index, !0 value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.LastGet">
+            <summary>Sets the shim of RingCollection`1.get_Last()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.LastSetT0">
+            <summary>Sets the shim of RingCollection`1.set_Last(!0 value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.Remove">
+            <summary>Sets the shim of RingCollection`1.Remove()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.SystemCollectionsGenericIEnumerableTGetEnumerator">
+            <summary>Sets the shim of RingCollection`1.System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.ShimRingCollection`1.AllInstances.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Sets the shim of RingCollection`1.System.Collections.IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Collections.Fakes.StubIReadOnlyArray`1">
+            <summary>Stub type of OpenHardwareMonitor.Collections.IReadOnlyArray`1</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.StubIReadOnlyArray`1.#ctor">
+            <summary>Initializes a new instance of type StubIReadOnlyArray</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Collections.Fakes.StubIReadOnlyArray`1.GetEnumerator">
+            <summary>Sets the stub of IEnumerable`1.GetEnumerator()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Collections.Fakes.StubIReadOnlyArray`1.GetEnumerator01">
+            <summary>Sets the stub of IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Collections.Fakes.StubIReadOnlyArray`1.ItemGetInt32">
+            <summary>Sets the stub of IReadOnlyArray`1.get_Item(Int32 index)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Collections.Fakes.StubIReadOnlyArray`1.LengthGet">
+            <summary>Sets the stub of IReadOnlyArray`1.get_Length()</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.StubIReadOnlyArray`1.global::System#Collections#Generic#IEnumerable{T}#GetEnumerator">
+            <summary>Sets the stub of IEnumerable`1.GetEnumerator()</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.StubIReadOnlyArray`1.global::System#Collections#IEnumerable#GetEnumerator">
+            <summary>Sets the stub of IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.StubIReadOnlyArray`1.OpenHardwareMonitor#Collections#IReadOnlyArray{T}#Item(System.Int32)">
+            <summary>Sets the stub of IReadOnlyArray`1.get_Item(Int32 index)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.StubIReadOnlyArray`1.ohml::OpenHardwareMonitor#Collections#IReadOnlyArray{T}#Length">
+            <summary>Sets the stub of IReadOnlyArray`1.get_Length()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Collections.Fakes.StubListSet`1">
+            <summary>Stub type of OpenHardwareMonitor.Collections.ListSet`1</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.StubListSet`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.StubListSet`1.InitializeStub">
+            <summary>Initializes a new instance of type StubListSet</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.StubListSet`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.StubListSet`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.StubListSet`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Collections.Fakes.StubReadOnlyArray`1">
+            <summary>Stub type of OpenHardwareMonitor.Collections.ReadOnlyArray`1</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.StubReadOnlyArray`1.#ctor(`0[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.StubReadOnlyArray`1.InitializeStub">
+            <summary>Initializes a new instance of type StubReadOnlyArray</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.StubReadOnlyArray`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.StubReadOnlyArray`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.StubReadOnlyArray`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Collections.Fakes.StubRingCollection`1">
+            <summary>Stub type of OpenHardwareMonitor.Collections.RingCollection`1</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.StubRingCollection`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.StubRingCollection`1.#ctor(System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Collections.Fakes.StubRingCollection`1.InitializeStub">
+            <summary>Initializes a new instance of type StubRingCollection</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.StubRingCollection`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.StubRingCollection`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Collections.Fakes.StubRingCollection`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.ShimComputer">
+            <summary>Shim type of OpenHardwareMonitor.Hardware.Computer</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.#ctor(OpenHardwareMonitor.Hardware.Computer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.Bind(OpenHardwareMonitor.Hardware.IComputer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.Bind(OpenHardwareMonitor.Hardware.IElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AcceptIVisitor">
+            <summary>Sets the shim of Computer.Accept(IVisitor visitor)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.CPUEnabledGet">
+            <summary>Sets the shim of Computer.get_CPUEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.CPUEnabledSetBoolean">
+            <summary>Sets the shim of Computer.set_CPUEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.Close">
+            <summary>Sets the shim of Computer.Close()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.CompareSensorISensorISensor">
+            <summary>Sets the shim of Computer.CompareSensor(ISensor a, ISensor b)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.Constructor">
+            <summary>Sets the shim of Computer.Computer()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.ConstructorISettings">
+            <summary>Sets the shim of Computer.Computer(ISettings settings)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.FanControllerEnabledGet">
+            <summary>Sets the shim of Computer.get_FanControllerEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.FanControllerEnabledSetBoolean">
+            <summary>Sets the shim of Computer.set_FanControllerEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.GPUEnabledGet">
+            <summary>Sets the shim of Computer.get_GPUEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.GPUEnabledSetBoolean">
+            <summary>Sets the shim of Computer.set_GPUEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.GetReport">
+            <summary>Sets the shim of Computer.GetReport()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.HDDEnabledGet">
+            <summary>Sets the shim of Computer.get_HDDEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.HDDEnabledSetBoolean">
+            <summary>Sets the shim of Computer.set_HDDEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.HardwareAddedAddHardwareEventHandler">
+            <summary>Sets the shim of Computer.add_HardwareAdded(HardwareEventHandler value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.HardwareAddedRemoveHardwareEventHandler">
+            <summary>Sets the shim of Computer.remove_HardwareAdded(HardwareEventHandler value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.HardwareGet">
+            <summary>Sets the shim of Computer.get_Hardware()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.HardwareRemovedAddHardwareEventHandler">
+            <summary>Sets the shim of Computer.add_HardwareRemoved(HardwareEventHandler value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.HardwareRemovedRemoveHardwareEventHandler">
+            <summary>Sets the shim of Computer.remove_HardwareRemoved(HardwareEventHandler value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.MainboardEnabledGet">
+            <summary>Sets the shim of Computer.get_MainboardEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.MainboardEnabledSetBoolean">
+            <summary>Sets the shim of Computer.set_MainboardEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.NewSectionTextWriter">
+            <summary>Sets the shim of Computer.NewSection(TextWriter writer)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.Open">
+            <summary>Sets the shim of Computer.Open()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.RAMEnabledGet">
+            <summary>Sets the shim of Computer.get_RAMEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.RAMEnabledSetBoolean">
+            <summary>Sets the shim of Computer.set_RAMEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.ReportHardwareIHardwareTextWriter">
+            <summary>Sets the shim of Computer.ReportHardware(IHardware hardware, TextWriter w)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.ReportHardwareParameterTreeIHardwareTextWriterString">
+            <summary>Sets the shim of Computer.ReportHardwareParameterTree(IHardware hardware, TextWriter w, String space)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.ReportHardwareSensorTreeIHardwareTextWriterString">
+            <summary>Sets the shim of Computer.ReportHardwareSensorTree(IHardware hardware, TextWriter w, String space)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.TraverseIVisitor">
+            <summary>Sets the shim of Computer.Traverse(IVisitor visitor)</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.AcceptIVisitor">
+            <summary>Sets the shim of Computer.Accept(IVisitor visitor)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.CPUEnabledGet">
+            <summary>Sets the shim of Computer.get_CPUEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.CPUEnabledSetBoolean">
+            <summary>Sets the shim of Computer.set_CPUEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.Close">
+            <summary>Sets the shim of Computer.Close()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.FanControllerEnabledGet">
+            <summary>Sets the shim of Computer.get_FanControllerEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.FanControllerEnabledSetBoolean">
+            <summary>Sets the shim of Computer.set_FanControllerEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.GPUEnabledGet">
+            <summary>Sets the shim of Computer.get_GPUEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.GPUEnabledSetBoolean">
+            <summary>Sets the shim of Computer.set_GPUEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.GetReport">
+            <summary>Sets the shim of Computer.GetReport()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.HDDEnabledGet">
+            <summary>Sets the shim of Computer.get_HDDEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.HDDEnabledSetBoolean">
+            <summary>Sets the shim of Computer.set_HDDEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.HardwareAddedAddHardwareEventHandler">
+            <summary>Sets the shim of Computer.add_HardwareAdded(HardwareEventHandler value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.HardwareAddedRemoveHardwareEventHandler">
+            <summary>Sets the shim of Computer.remove_HardwareAdded(HardwareEventHandler value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.HardwareGet">
+            <summary>Sets the shim of Computer.get_Hardware()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.HardwareRemovedAddHardwareEventHandler">
+            <summary>Sets the shim of Computer.add_HardwareRemoved(HardwareEventHandler value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.HardwareRemovedRemoveHardwareEventHandler">
+            <summary>Sets the shim of Computer.remove_HardwareRemoved(HardwareEventHandler value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.MainboardEnabledGet">
+            <summary>Sets the shim of Computer.get_MainboardEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.MainboardEnabledSetBoolean">
+            <summary>Sets the shim of Computer.set_MainboardEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.Open">
+            <summary>Sets the shim of Computer.Open()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.RAMEnabledGet">
+            <summary>Sets the shim of Computer.get_RAMEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.RAMEnabledSetBoolean">
+            <summary>Sets the shim of Computer.set_RAMEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimComputer.AllInstances.TraverseIVisitor">
+            <summary>Sets the shim of Computer.Traverse(IVisitor visitor)</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier">
+            <summary>Shim type of OpenHardwareMonitor.Hardware.Identifier</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.#ctor(OpenHardwareMonitor.Hardware.Identifier)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.Bind(System.IComparable{OpenHardwareMonitor.Hardware.Identifier})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.CheckIdentifiersIEnumerableOfString">
+            <summary>Sets the shim of Identifier.CheckIdentifiers(IEnumerable`1&lt;String&gt; identifiers)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.CompareToIdentifier">
+            <summary>Sets the shim of Identifier.CompareTo(Identifier other)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.ConstructorIdentifierStringArray">
+            <summary>Sets the shim of Identifier.Identifier(Identifier identifier, String[] extensions)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.ConstructorStringArray">
+            <summary>Sets the shim of Identifier.Identifier(String[] identifiers)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.EqualityOpIdentifierIdentifier">
+            <summary>Sets the shim of Identifier.op_Equality(Identifier id1, Identifier id2)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.EqualsObject">
+            <summary>Sets the shim of Identifier.Equals(Object obj)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.GetHashCode">
+            <summary>Sets the shim of Identifier.GetHashCode()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.GreaterThanOpIdentifierIdentifier">
+            <summary>Sets the shim of Identifier.op_GreaterThan(Identifier id1, Identifier id2)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.InequalityOpIdentifierIdentifier">
+            <summary>Sets the shim of Identifier.op_Inequality(Identifier id1, Identifier id2)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.LessThanOpIdentifierIdentifier">
+            <summary>Sets the shim of Identifier.op_LessThan(Identifier id1, Identifier id2)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.ToString">
+            <summary>Sets the shim of Identifier.ToString()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.AllInstances.CompareToIdentifier">
+            <summary>Sets the shim of Identifier.CompareTo(Identifier other)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.AllInstances.EqualsObject">
+            <summary>Sets the shim of Identifier.Equals(Object obj)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.AllInstances.GetHashCode01">
+            <summary>Sets the shim of Identifier.GetHashCode()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimIdentifier.AllInstances.ToString01">
+            <summary>Sets the shim of Identifier.ToString()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.ShimSensorValue">
+            <summary>Shim type of OpenHardwareMonitor.Hardware.SensorValue</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimSensorValue.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimSensorValue.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimSensorValue.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimSensorValue.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.ShimSensorValue.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor">
+            <summary>Shim type of OpenHardwareMonitor.Hardware.SensorVisitor</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.#ctor(OpenHardwareMonitor.Hardware.SensorVisitor)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.Bind(OpenHardwareMonitor.Hardware.IVisitor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.ConstructorSensorEventHandler">
+            <summary>Sets the shim of SensorVisitor.SensorVisitor(SensorEventHandler handler)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.VisitComputerIComputer">
+            <summary>Sets the shim of SensorVisitor.VisitComputer(IComputer computer)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.VisitHardwareIHardware">
+            <summary>Sets the shim of SensorVisitor.VisitHardware(IHardware hardware)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.VisitParameterIParameter">
+            <summary>Sets the shim of SensorVisitor.VisitParameter(IParameter parameter)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.VisitSensorISensor">
+            <summary>Sets the shim of SensorVisitor.VisitSensor(ISensor sensor)</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.AllInstances.VisitComputerIComputer">
+            <summary>Sets the shim of SensorVisitor.VisitComputer(IComputer computer)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.AllInstances.VisitHardwareIHardware">
+            <summary>Sets the shim of SensorVisitor.VisitHardware(IHardware hardware)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.AllInstances.VisitParameterIParameter">
+            <summary>Sets the shim of SensorVisitor.VisitParameter(IParameter parameter)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.ShimSensorVisitor.AllInstances.VisitSensorISensor">
+            <summary>Sets the shim of SensorVisitor.VisitSensor(ISensor sensor)</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.StubComputer">
+            <summary>Stub type of OpenHardwareMonitor.Hardware.Computer</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubComputer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubComputer.#ctor(OpenHardwareMonitor.Hardware.ISettings)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubComputer.InitializeStub">
+            <summary>Initializes a new instance of type StubComputer</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubComputer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubComputer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubComputer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.StubIComputer">
+            <summary>Stub type of OpenHardwareMonitor.Hardware.IComputer</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.#ctor">
+            <summary>Initializes a new instance of type StubIComputer</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.AcceptIVisitor">
+            <summary>Sets the stub of IElement.Accept(IVisitor visitor)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.CPUEnabledGet">
+            <summary>Sets the stub of IComputer.get_CPUEnabled()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.FanControllerEnabledGet">
+            <summary>Sets the stub of IComputer.get_FanControllerEnabled()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.GPUEnabledGet">
+            <summary>Sets the stub of IComputer.get_GPUEnabled()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.GetReport">
+            <summary>Sets the stub of IComputer.GetReport()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.HDDEnabledGet">
+            <summary>Sets the stub of IComputer.get_HDDEnabled()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.HardwareGet">
+            <summary>Sets the stub of IComputer.get_Hardware()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.MainboardEnabledGet">
+            <summary>Sets the stub of IComputer.get_MainboardEnabled()</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.ohml::OpenHardwareMonitor#Hardware#IComputer#GetReport">
+            <summary>Sets the stub of IComputer.GetReport()</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.ohml::OpenHardwareMonitor#Hardware#IElement#Accept(OpenHardwareMonitor.Hardware.IVisitor)">
+            <summary>Sets the stub of IElement.Accept(IVisitor visitor)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.ohml::OpenHardwareMonitor#Hardware#IElement#Traverse(OpenHardwareMonitor.Hardware.IVisitor)">
+            <summary>Sets the stub of IElement.Traverse(IVisitor visitor)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.RAMEnabledGet">
+            <summary>Sets the stub of IComputer.get_RAMEnabled()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.TraverseIVisitor">
+            <summary>Sets the stub of IElement.Traverse(IVisitor visitor)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.ohml::OpenHardwareMonitor#Hardware#IComputer#CPUEnabled">
+            <summary>Sets the stub of IComputer.get_CPUEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.ohml::OpenHardwareMonitor#Hardware#IComputer#FanControllerEnabled">
+            <summary>Sets the stub of IComputer.get_FanControllerEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.ohml::OpenHardwareMonitor#Hardware#IComputer#GPUEnabled">
+            <summary>Sets the stub of IComputer.get_GPUEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.ohml::OpenHardwareMonitor#Hardware#IComputer#HDDEnabled">
+            <summary>Sets the stub of IComputer.get_HDDEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.ohml::OpenHardwareMonitor#Hardware#IComputer#Hardware">
+            <summary>Sets the stub of IComputer.get_Hardware()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.ohml::OpenHardwareMonitor#Hardware#IComputer#MainboardEnabled">
+            <summary>Sets the stub of IComputer.get_MainboardEnabled()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIComputer.ohml::OpenHardwareMonitor#Hardware#IComputer#RAMEnabled">
+            <summary>Sets the stub of IComputer.get_RAMEnabled()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.StubIControl">
+            <summary>Stub type of OpenHardwareMonitor.Hardware.IControl</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIControl.#ctor">
+            <summary>Initializes a new instance of type StubIControl</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIControl.ControlModeGet">
+            <summary>Sets the stub of IControl.get_ControlMode()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIControl.IdentifierGet">
+            <summary>Sets the stub of IControl.get_Identifier()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIControl.MaxSoftwareValueGet">
+            <summary>Sets the stub of IControl.get_MaxSoftwareValue()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIControl.MinSoftwareValueGet">
+            <summary>Sets the stub of IControl.get_MinSoftwareValue()</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIControl.ohml::OpenHardwareMonitor#Hardware#IControl#SetDefault">
+            <summary>Sets the stub of IControl.SetDefault()</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIControl.ohml::OpenHardwareMonitor#Hardware#IControl#SetSoftware(System.Single)">
+            <summary>Sets the stub of IControl.SetSoftware(Single value)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIControl.SetDefault">
+            <summary>Sets the stub of IControl.SetDefault()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIControl.SetSoftwareSingle">
+            <summary>Sets the stub of IControl.SetSoftware(Single value)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIControl.SoftwareValueGet">
+            <summary>Sets the stub of IControl.get_SoftwareValue()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIControl.ohml::OpenHardwareMonitor#Hardware#IControl#ControlMode">
+            <summary>Sets the stub of IControl.get_ControlMode()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIControl.ohml::OpenHardwareMonitor#Hardware#IControl#Identifier">
+            <summary>Sets the stub of IControl.get_Identifier()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIControl.ohml::OpenHardwareMonitor#Hardware#IControl#MaxSoftwareValue">
+            <summary>Sets the stub of IControl.get_MaxSoftwareValue()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIControl.ohml::OpenHardwareMonitor#Hardware#IControl#MinSoftwareValue">
+            <summary>Sets the stub of IControl.get_MinSoftwareValue()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIControl.ohml::OpenHardwareMonitor#Hardware#IControl#SoftwareValue">
+            <summary>Sets the stub of IControl.get_SoftwareValue()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.StubIElement">
+            <summary>Stub type of OpenHardwareMonitor.Hardware.IElement</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIElement.#ctor">
+            <summary>Initializes a new instance of type StubIElement</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIElement.AcceptIVisitor">
+            <summary>Sets the stub of IElement.Accept(IVisitor visitor)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIElement.ohml::OpenHardwareMonitor#Hardware#IElement#Accept(OpenHardwareMonitor.Hardware.IVisitor)">
+            <summary>Sets the stub of IElement.Accept(IVisitor visitor)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIElement.ohml::OpenHardwareMonitor#Hardware#IElement#Traverse(OpenHardwareMonitor.Hardware.IVisitor)">
+            <summary>Sets the stub of IElement.Traverse(IVisitor visitor)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIElement.TraverseIVisitor">
+            <summary>Sets the stub of IElement.Traverse(IVisitor visitor)</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.StubIHardware">
+            <summary>Stub type of OpenHardwareMonitor.Hardware.IHardware</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.#ctor">
+            <summary>Initializes a new instance of type StubIHardware</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.AcceptIVisitor">
+            <summary>Sets the stub of IElement.Accept(IVisitor visitor)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.AttachBackingFieldToName">
+            <summary>Attaches delegates to emulate StubIHardware.Name as a property with a backing field.</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.GetReport">
+            <summary>Sets the stub of IHardware.GetReport()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.HardwareTypeGet">
+            <summary>Sets the stub of IHardware.get_HardwareType()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.IdentifierGet">
+            <summary>Sets the stub of IHardware.get_Identifier()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.NameGet">
+            <summary>Sets the stub of IHardware.get_Name()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.NameSetString">
+            <summary>Sets the stub of IHardware.set_Name(String value)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.ohml::OpenHardwareMonitor#Hardware#IElement#Accept(OpenHardwareMonitor.Hardware.IVisitor)">
+            <summary>Sets the stub of IElement.Accept(IVisitor visitor)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.ohml::OpenHardwareMonitor#Hardware#IElement#Traverse(OpenHardwareMonitor.Hardware.IVisitor)">
+            <summary>Sets the stub of IElement.Traverse(IVisitor visitor)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.ohml::OpenHardwareMonitor#Hardware#IHardware#GetReport">
+            <summary>Sets the stub of IHardware.GetReport()</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.ohml::OpenHardwareMonitor#Hardware#IHardware#Update">
+            <summary>Sets the stub of IHardware.Update()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.ParentGet">
+            <summary>Sets the stub of IHardware.get_Parent()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.SensorsGet">
+            <summary>Sets the stub of IHardware.get_Sensors()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.SubHardwareGet">
+            <summary>Sets the stub of IHardware.get_SubHardware()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.TraverseIVisitor">
+            <summary>Sets the stub of IElement.Traverse(IVisitor visitor)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.Update">
+            <summary>Sets the stub of IHardware.Update()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.ohml::OpenHardwareMonitor#Hardware#IHardware#HardwareType">
+            <summary>Sets the stub of IHardware.get_HardwareType()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.ohml::OpenHardwareMonitor#Hardware#IHardware#Identifier">
+            <summary>Sets the stub of IHardware.get_Identifier()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.ohml::OpenHardwareMonitor#Hardware#IHardware#Name">
+            <summary>Sets the stub of IHardware.get_Name()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.ohml::OpenHardwareMonitor#Hardware#IHardware#Parent">
+            <summary>Sets the stub of IHardware.get_Parent()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.ohml::OpenHardwareMonitor#Hardware#IHardware#Sensors">
+            <summary>Sets the stub of IHardware.get_Sensors()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIHardware.ohml::OpenHardwareMonitor#Hardware#IHardware#SubHardware">
+            <summary>Sets the stub of IHardware.get_SubHardware()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.StubIParameter">
+            <summary>Stub type of OpenHardwareMonitor.Hardware.IParameter</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.#ctor">
+            <summary>Initializes a new instance of type StubIParameter</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.AcceptIVisitor">
+            <summary>Sets the stub of IElement.Accept(IVisitor visitor)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.AttachBackingFieldToIsDefault">
+            <summary>Attaches delegates to emulate StubIParameter.IsDefault as a property with a backing field.</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.AttachBackingFieldToValue">
+            <summary>Attaches delegates to emulate StubIParameter.Value as a property with a backing field.</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.DefaultValueGet">
+            <summary>Sets the stub of IParameter.get_DefaultValue()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.DescriptionGet">
+            <summary>Sets the stub of IParameter.get_Description()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.IdentifierGet">
+            <summary>Sets the stub of IParameter.get_Identifier()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.IsDefaultGet">
+            <summary>Sets the stub of IParameter.get_IsDefault()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.IsDefaultSetBoolean">
+            <summary>Sets the stub of IParameter.set_IsDefault(Boolean value)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.NameGet">
+            <summary>Sets the stub of IParameter.get_Name()</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.ohml::OpenHardwareMonitor#Hardware#IElement#Accept(OpenHardwareMonitor.Hardware.IVisitor)">
+            <summary>Sets the stub of IElement.Accept(IVisitor visitor)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.ohml::OpenHardwareMonitor#Hardware#IElement#Traverse(OpenHardwareMonitor.Hardware.IVisitor)">
+            <summary>Sets the stub of IElement.Traverse(IVisitor visitor)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.SensorGet">
+            <summary>Sets the stub of IParameter.get_Sensor()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.TraverseIVisitor">
+            <summary>Sets the stub of IElement.Traverse(IVisitor visitor)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.ValueGet">
+            <summary>Sets the stub of IParameter.get_Value()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.ValueSetSingle">
+            <summary>Sets the stub of IParameter.set_Value(Single value)</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.ohml::OpenHardwareMonitor#Hardware#IParameter#DefaultValue">
+            <summary>Sets the stub of IParameter.get_DefaultValue()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.ohml::OpenHardwareMonitor#Hardware#IParameter#Description">
+            <summary>Sets the stub of IParameter.get_Description()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.ohml::OpenHardwareMonitor#Hardware#IParameter#Identifier">
+            <summary>Sets the stub of IParameter.get_Identifier()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.ohml::OpenHardwareMonitor#Hardware#IParameter#IsDefault">
+            <summary>Sets the stub of IParameter.get_IsDefault()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.ohml::OpenHardwareMonitor#Hardware#IParameter#Name">
+            <summary>Sets the stub of IParameter.get_Name()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.ohml::OpenHardwareMonitor#Hardware#IParameter#Sensor">
+            <summary>Sets the stub of IParameter.get_Sensor()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIParameter.ohml::OpenHardwareMonitor#Hardware#IParameter#Value">
+            <summary>Sets the stub of IParameter.get_Value()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.StubISensor">
+            <summary>Stub type of OpenHardwareMonitor.Hardware.ISensor</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubISensor.#ctor">
+            <summary>Initializes a new instance of type StubISensor</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.AcceptIVisitor">
+            <summary>Sets the stub of IElement.Accept(IVisitor visitor)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubISensor.AttachBackingFieldToName">
+            <summary>Attaches delegates to emulate StubISensor.Name as a property with a backing field.</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ControlGet">
+            <summary>Sets the stub of ISensor.get_Control()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.HardwareGet">
+            <summary>Sets the stub of ISensor.get_Hardware()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.IdentifierGet">
+            <summary>Sets the stub of ISensor.get_Identifier()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.IndexGet">
+            <summary>Sets the stub of ISensor.get_Index()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.IsDefaultHiddenGet">
+            <summary>Sets the stub of ISensor.get_IsDefaultHidden()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.MaxGet">
+            <summary>Sets the stub of ISensor.get_Max()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.MinGet">
+            <summary>Sets the stub of ISensor.get_Min()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.NameGet">
+            <summary>Sets the stub of ISensor.get_Name()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.NameSetString">
+            <summary>Sets the stub of ISensor.set_Name(String value)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#IElement#Accept(OpenHardwareMonitor.Hardware.IVisitor)">
+            <summary>Sets the stub of IElement.Accept(IVisitor visitor)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#IElement#Traverse(OpenHardwareMonitor.Hardware.IVisitor)">
+            <summary>Sets the stub of IElement.Traverse(IVisitor visitor)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#ResetMax">
+            <summary>Sets the stub of ISensor.ResetMax()</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#ResetMin">
+            <summary>Sets the stub of ISensor.ResetMin()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ParametersGet">
+            <summary>Sets the stub of ISensor.get_Parameters()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ResetMax">
+            <summary>Sets the stub of ISensor.ResetMax()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ResetMin">
+            <summary>Sets the stub of ISensor.ResetMin()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.SensorTypeGet">
+            <summary>Sets the stub of ISensor.get_SensorType()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.TraverseIVisitor">
+            <summary>Sets the stub of IElement.Traverse(IVisitor visitor)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ValueGet">
+            <summary>Sets the stub of ISensor.get_Value()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ValuesGet">
+            <summary>Sets the stub of ISensor.get_Values()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#Control">
+            <summary>Sets the stub of ISensor.get_Control()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#Hardware">
+            <summary>Sets the stub of ISensor.get_Hardware()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#Identifier">
+            <summary>Sets the stub of ISensor.get_Identifier()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#Index">
+            <summary>Sets the stub of ISensor.get_Index()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#IsDefaultHidden">
+            <summary>Sets the stub of ISensor.get_IsDefaultHidden()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#Max">
+            <summary>Sets the stub of ISensor.get_Max()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#Min">
+            <summary>Sets the stub of ISensor.get_Min()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#Name">
+            <summary>Sets the stub of ISensor.get_Name()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#Parameters">
+            <summary>Sets the stub of ISensor.get_Parameters()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#SensorType">
+            <summary>Sets the stub of ISensor.get_SensorType()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#Value">
+            <summary>Sets the stub of ISensor.get_Value()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubISensor.ohml::OpenHardwareMonitor#Hardware#ISensor#Values">
+            <summary>Sets the stub of ISensor.get_Values()</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.StubISettings">
+            <summary>Stub type of OpenHardwareMonitor.Hardware.ISettings</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubISettings.#ctor">
+            <summary>Initializes a new instance of type StubISettings</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISettings.ContainsString">
+            <summary>Sets the stub of ISettings.Contains(String name)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISettings.GetValueStringString">
+            <summary>Sets the stub of ISettings.GetValue(String name, String value)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubISettings.ohml::OpenHardwareMonitor#Hardware#ISettings#Contains(System.String)">
+            <summary>Sets the stub of ISettings.Contains(String name)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubISettings.ohml::OpenHardwareMonitor#Hardware#ISettings#GetValue(System.String,System.String)">
+            <summary>Sets the stub of ISettings.GetValue(String name, String value)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubISettings.ohml::OpenHardwareMonitor#Hardware#ISettings#Remove(System.String)">
+            <summary>Sets the stub of ISettings.Remove(String name)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubISettings.ohml::OpenHardwareMonitor#Hardware#ISettings#SetValue(System.String,System.String)">
+            <summary>Sets the stub of ISettings.SetValue(String name, String value)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISettings.RemoveString">
+            <summary>Sets the stub of ISettings.Remove(String name)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubISettings.SetValueStringString">
+            <summary>Sets the stub of ISettings.SetValue(String name, String value)</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.StubIVisitor">
+            <summary>Stub type of OpenHardwareMonitor.Hardware.IVisitor</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIVisitor.#ctor">
+            <summary>Initializes a new instance of type StubIVisitor</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIVisitor.ohml::OpenHardwareMonitor#Hardware#IVisitor#VisitComputer(OpenHardwareMonitor.Hardware.IComputer)">
+            <summary>Sets the stub of IVisitor.VisitComputer(IComputer computer)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIVisitor.ohml::OpenHardwareMonitor#Hardware#IVisitor#VisitHardware(OpenHardwareMonitor.Hardware.IHardware)">
+            <summary>Sets the stub of IVisitor.VisitHardware(IHardware hardware)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIVisitor.ohml::OpenHardwareMonitor#Hardware#IVisitor#VisitParameter(OpenHardwareMonitor.Hardware.IParameter)">
+            <summary>Sets the stub of IVisitor.VisitParameter(IParameter parameter)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIVisitor.ohml::OpenHardwareMonitor#Hardware#IVisitor#VisitSensor(OpenHardwareMonitor.Hardware.ISensor)">
+            <summary>Sets the stub of IVisitor.VisitSensor(ISensor sensor)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIVisitor.VisitComputerIComputer">
+            <summary>Sets the stub of IVisitor.VisitComputer(IComputer computer)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIVisitor.VisitHardwareIHardware">
+            <summary>Sets the stub of IVisitor.VisitHardware(IHardware hardware)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIVisitor.VisitParameterIParameter">
+            <summary>Sets the stub of IVisitor.VisitParameter(IParameter parameter)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIVisitor.VisitSensorISensor">
+            <summary>Sets the stub of IVisitor.VisitSensor(ISensor sensor)</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.StubIdentifier">
+            <summary>Stub type of OpenHardwareMonitor.Hardware.Identifier</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIdentifier.#ctor(System.String[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIdentifier.#ctor(OpenHardwareMonitor.Hardware.Identifier,System.String[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIdentifier.Equals(System.Object)">
+            <summary>Sets the stub of Identifier.Equals(Object obj)</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIdentifier.EqualsObject">
+            <summary>Sets the stub of Identifier.Equals(Object obj)</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIdentifier.GetHashCode">
+            <summary>Sets the stub of Identifier.GetHashCode()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIdentifier.GetHashCode01">
+            <summary>Sets the stub of Identifier.GetHashCode()</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIdentifier.InitializeStub">
+            <summary>Initializes a new instance of type StubIdentifier</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubIdentifier.ToString">
+            <summary>Sets the stub of Identifier.ToString()</summary>
+        </member>
+        <member name="F:OpenHardwareMonitor.Hardware.Fakes.StubIdentifier.ToString01">
+            <summary>Sets the stub of Identifier.ToString()</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIdentifier.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIdentifier.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubIdentifier.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OpenHardwareMonitor.Hardware.Fakes.StubSensorVisitor">
+            <summary>Stub type of OpenHardwareMonitor.Hardware.SensorVisitor</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubSensorVisitor.#ctor(OpenHardwareMonitor.Hardware.SensorEventHandler)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OpenHardwareMonitor.Hardware.Fakes.StubSensorVisitor.InitializeStub">
+            <summary>Initializes a new instance of type StubSensorVisitor</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubSensorVisitor.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubSensorVisitor.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OpenHardwareMonitor.Hardware.Fakes.StubSensorVisitor.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

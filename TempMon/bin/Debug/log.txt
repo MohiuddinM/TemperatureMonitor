@@ -1,0 +1,4 @@
+-----------------------------------
+14-Sep-14 1:45:44 PM
+[+] Core One Temperature = 81
+[+] Core Two Temperature = 82

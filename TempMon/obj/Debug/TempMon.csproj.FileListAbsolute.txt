@@ -1,6 +1,0 @@
-c:\users\inspiron\documents\visual studio 2012\Projects\TempMon\TempMon\bin\Debug\TempMon.exe.config
-c:\users\inspiron\documents\visual studio 2012\Projects\TempMon\TempMon\bin\Debug\TempMon.exe
-c:\users\inspiron\documents\visual studio 2012\Projects\TempMon\TempMon\bin\Debug\TempMon.pdb
-c:\users\inspiron\documents\visual studio 2012\Projects\TempMon\TempMon\obj\Debug\TempMon.csprojResolveAssemblyReference.cache
-c:\users\inspiron\documents\visual studio 2012\Projects\TempMon\TempMon\obj\Debug\TempMon.exe
-c:\users\inspiron\documents\visual studio 2012\Projects\TempMon\TempMon\obj\Debug\TempMon.pdb
